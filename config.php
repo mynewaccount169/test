@@ -1,10 +1,10 @@
 <?php 
 
 return [
-'host' =>'localhost',
-'name' =>'vk',
-'user' => 'root',
-'password' =>'',
+'host' =>'mysql.zzz.com.ua',
+'name' =>'profil_name',
+'user' => 'basegg',
+'password' =>'Pass123456',
 ];
 
 ?>
