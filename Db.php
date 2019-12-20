@@ -1,5 +1,5 @@
 <?php
-define("PATH", "http://178.151.27.62/wwwcatalog/");
+define("PATH", "http://testisite.zzz.com.ua/");
 class Db {
 
 	protected $db;
