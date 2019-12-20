@@ -21,19 +21,6 @@ class get_one_product extends Db
                 $return_arr["id"] = $row["id"];
                 $return_arr["price"] = $row["price"];
                 $return_arr["date"] = date('d-m-Y H:i:s', $row["date"]);
-
-
-                /* $id = $row['id'];
-                 $username = $row['title'];
-                 $name = $row['price'];
-                 $parent = $row['parent'];
-                 $return_arr[] = array(
-                     "id" => $id,
-                     "title" => $username,
-                     "price" => $name,
-                     "parent" => $parent
-                 );
- */
             }
 
 return json_encode($return_arr);
